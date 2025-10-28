@@ -1,0 +1,6 @@
+pyyaml
+python-dotenv
+pandas
+matplotlib
+ccxt
+openai

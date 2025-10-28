@@ -1,0 +1,15 @@
+# Example configuration for HyperLiquid (local test)
+general:
+  dry_run: true
+  base_currency: USD
+  starting_balance: 10000.0
+  max_leverage: 10
+trading:
+  symbol: BTC-USD
+  risk_per_trade_pct: 1.0
+  mode: moderate   # conservative | moderate | aggressive
+ai:
+  model: placeholder
+  temperature: 0.2
+notifications:
+  telegram: {}
